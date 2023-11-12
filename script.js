@@ -21,10 +21,7 @@ setTimeout(() => {
                   setTimeout(() => {
                     viewPoint.innerText = "1";
                     setTimeout(() => {
-                      viewPoint.innerText = "0";
-                      setTimeout(() => {
-                        viewPoint.innerText = "Happy Independence Day";
-                      }, 1000);
+                      viewPoint.innerText = "Happy Independence Day";
                     }, 1000);
                   }, 1000);
                 }, 1000);
