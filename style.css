@@ -1,0 +1,17 @@
+* {
+  background: radial-gradient(#cdd2c8, #aaadb4, #d7dac6);
+}
+
+h2 {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  font-size: 120px;
+  font-family: sans-serif;
+  margin-top: 40vh;
+  text-wrap: wrap;
+  background: radial-gradient(#e42ac2, #2b3ed2, #e6b2ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

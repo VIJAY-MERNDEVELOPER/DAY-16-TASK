@@ -1,27 +1,27 @@
 const viewPoint = document.getElementById("callback");
 
 setTimeout(() => {
-  viewPoint.innerText = "10";
+  viewPoint.innerHTML = "<h2>10</h2>";
   setTimeout(() => {
-    viewPoint.innerText = "9";
+    viewPoint.innerHTML = "<h2>9</h2>";
     setTimeout(() => {
-      viewPoint.innerText = "8";
+      viewPoint.innerHTML = "<h2>8</h2>";
       setTimeout(() => {
-        viewPoint.innerText = "7";
+        viewPoint.innerHTML = "<h2>7</h2>";
         setTimeout(() => {
-          viewPoint.innerText = "6";
+          viewPoint.innerHTML = "<h2>6</h2>";
           setTimeout(() => {
-            viewPoint.innerText = "5";
+            viewPoint.innerHTML = "<h2>5</h2>";
             setTimeout(() => {
-              viewPoint.innerText = "4";
+              viewPoint.innerHTML = "<h2>4</h2>";
               setTimeout(() => {
-                viewPoint.innerText = "3";
+                viewPoint.innerHTML = "<h2>3</h2>";
                 setTimeout(() => {
-                  viewPoint.innerText = "2";
+                  viewPoint.innerHTML = "<h2>2</h2>";
                   setTimeout(() => {
-                    viewPoint.innerText = "1";
+                    viewPoint.innerHTML = "<h2>1</h2>";
                     setTimeout(() => {
-                      viewPoint.innerText = "Happy Independence Day";
+                      viewPoint.innerHTML = "<h2>HAPPY INDEPENDENCE DAY </h2>";
                     }, 1000);
                   }, 1000);
                 }, 1000);
